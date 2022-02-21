@@ -52,7 +52,7 @@ namespace CoryCharlton.LoggingBenchmarks.Benchmarks
             {
                 if (_logger.IsEnabled(LogLevel.Debug))
                 {
-                    _logger.LogInformation(Message, Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, Parameter6);
+                    _logger.LogDebug(Message, Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, Parameter6);
                 }
             }
         }
